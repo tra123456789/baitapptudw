@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>PHÂN TÍCH</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <a href="danhsachsanpham.html"><h2>SHOP<span class="danger"> TT</span></h2></a>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="dashboard.html">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="username.html">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="phantich.html" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Phân Tích</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Tổng Doanh Thu</h3>
+                            <h1>27.000.000đ</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+87%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Truy Cập Web</h3>
+                            <h1>1,279</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-57%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Tìm Kiếm</h3>
+                            <h1>3,001</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+24%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>New Users</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <!-- img or image/profile-2.jpg -->
+                        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-wallpaper-of-an-old-wizard-with-flames-in-her-hand-image_2942381.jpg" width="80%">
+                        <h2> Thanh Tùng</h2>
+                        <p>27 Min Ago</p>
+                    </div>
+                    <div class="user">
+                        <!-- img or image/profile-3.jpg -->
+                        <img src="https://i.pinimg.com/originals/da/04/7c/da047cfddc72c8c78466e9528775e8c1.jpg" width="50%">
+                        <h2>Thu Trà</h2>
+                        <p>8 Hours Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="plus.png">
+                        <h2>More</h2>
+                        <p>New User</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sản Phẩm</th>
+                            <th>Số Đơn Hàng</th>
+                            <th>Thanh Toán</th>
+                            <th>Trạng Thái</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- End of Recent Orders -->
+        </main>
+        <!-- End of Main Content -->
+        
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hello, <b>SHOP TT</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <!-- img or image/profile-1.jpg -->
+                        <img src="https://vcdn-giaitri.vnecdn.net/2009/11/03/doreamon-1345682403_480x0.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <a href="danhsachsanpham.html"><img src="logo.png" alt="" style="width: 140px; margin-left: 30px ;">
+                    <h2>SHOP TT</h2>
+                    <p>Cửa Hàng thời trang trực tuyến Shop TT</p></a>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>TimeWork</h3>
+                            <small class="text_muted">
+                                07:30 AM - 21:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                07:30 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Reminder</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
